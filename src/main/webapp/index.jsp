@@ -4,7 +4,7 @@
     <meta charset="utf-8"/>
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-    <title></title>
+    <title>HTML/JavaScript demo</title>
     <meta name="keywords" content=""/>
     <meta name="description" content=""/>
     <link href="style.css" rel="stylesheet">
@@ -17,9 +17,9 @@
 
 <div class="wrapper">
 
-    <header class="header">
+    <div class="header">
         <span class="bold">HTML/JavaScript demo</span>
-    </header>
+    </div>
 
     <div class="middle">
 

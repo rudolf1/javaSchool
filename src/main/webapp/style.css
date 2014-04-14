@@ -99,12 +99,18 @@ body {
     width: 100%;
     text-align: left;
 }
+#tableContainer table tr{
+    background-color: #EFE;
+}
 #tableContainer table tr:nth-child(odd){
     background-color: #EEE;
 }
 #tableContainer table th{
     font-weight: bold;
-    background-color: #EFE;
+    background-color: #ffc79b;
+}
+#tableContainer table .idColumn {
+    width: 150px;
 }
 
 /* Left Sidebar
