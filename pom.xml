@@ -8,21 +8,6 @@
     <name>javaschool Jersey Webapp</name>
     <build>
         <finalName>javaschool</finalName>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <inherited>true</inherited>
-                <configuration>
-                    <source>1.6</source>
-                    <target>1.6</target>
-                </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.glassfish</groupId>
-                <artifactId>maven-glassfish-plugin</artifactId>
-            </plugin>
-        </plugins>
     </build>
     <dependencies>
         <dependency>

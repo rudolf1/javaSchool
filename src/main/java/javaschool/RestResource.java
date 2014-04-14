@@ -15,8 +15,12 @@ public class RestResource {
      * @return String that will be send back as a response of type "text/plain".
      */
     @GET 
-    @Produces("text/plain")
-    public String getIt() {
-        return "Hi there!";
+    @Produces("application/json")
+    public MyDTO getIt() {
+
+        MyDTO myDTO = new MyDTO();
+        myDTO.setArg1(100500);
+        myDTO.setArg2("Hello world");
+        return myDTO;
     }
 }

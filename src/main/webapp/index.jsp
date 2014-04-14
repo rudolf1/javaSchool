@@ -1,8 +1,13 @@
+<!DOCTYPE html>
 <html>
+<head>
+    <meta charset="UTF-8">
+    <title>Demo page</title>
+    <script type="text/javascript" src="jquery-2.0.3.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+</head>
 <body>
-<h2>Jersey RESTful Web Application!</h2>
-<p><a href="webresources/myresource">Jersey resource</a>
-<p>Visit the <a href="http://jersey.java.net">Project Jersey website</a>
-for more information on Jersey!
+Hello world
+<a href="#" id="makeAjax">Make ajax</a>
 </body>
 </html>
