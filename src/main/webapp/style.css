@@ -135,3 +135,14 @@ body {
 #footerClear {
     height: 0px;
 }
+
+/* Popup */
+#popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background: white;
+    border: 1px solid black;
+    padding: 20px;
+}

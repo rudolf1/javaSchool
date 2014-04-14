@@ -64,6 +64,10 @@
     Suspendisse potenti. Ut id velit vel orci bibendum bibendum.
     </div>
 </div>
-
+<div id="popup">
+    <div id="pID"></div>
+    <div>Name: <input type="text" name="text" id="pName"></div>
+    <div><input type="submit" value="Submit" id="pSubmit"/></div>
+</div>
 </body>
 </html>
