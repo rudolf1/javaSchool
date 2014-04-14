@@ -27,6 +27,7 @@ $(document).ready(function () {
         var id = $(this).parent().parent().find(".id").text();
         var name = $(this).parent().parent().find(".name").text();
         $("#popup").show();
+        $('#overlay').show();
         $('#pID').html(id);
         $('#pName').val(name);
     })

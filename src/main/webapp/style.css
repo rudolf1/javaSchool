@@ -142,7 +142,23 @@ body {
     position: fixed;
     top: 50%;
     left: 50%;
+    width: 250px;
+    height: 150px;
     background: white;
     border: 1px solid black;
     padding: 20px;
+    z-index: 101;
+    margin-left: -125px;
+    margin-top: -75px;
+}
+#overlay {
+    display: none;
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: 0.6;
+    z-index: 100;
 }

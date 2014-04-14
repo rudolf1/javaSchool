@@ -65,9 +65,12 @@
     </div>
 </div>
 <div id="popup">
-    <div id="pID"></div>
-    <div>Name: <input type="text" name="text" id="pName"></div>
-    <div><input type="submit" value="Submit" id="pSubmit"/></div>
+    <table>
+        <tr><td>ID:</td><td><span id="pID"></span></td></tr>
+        <tr><td>Name: </td><td><input type="text" name="text" id="pName"></td></tr>
+        <tr><td></td><td><input type="submit" value="Submit" id="pSubmit"/></td></tr>
+    </table>
 </div>
+<div id="overlay"></div>
 </body>
 </html>
