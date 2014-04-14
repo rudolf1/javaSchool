@@ -31,16 +31,4 @@ public class RestResource extends AbstractResource {
         return getItems();
     }
 
-    @GET
-    @Produces("application/json")
-    @Path("removeItem/{id}")
-    public void removeItem(@PathParam("id") Integer gid) {
-        for(Entry e: getItems()) {
-            if(e.getId().equals(gid)) {
-                getItems().remove(e);
-                return;
-            }
-        }
-        throw new RuntimeException("Entry not found");
-    }
 }
